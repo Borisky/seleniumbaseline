@@ -19,7 +19,6 @@
 		<locator type="cssSelector" timeOut="3" value="select#gNQuickLinks>option[text='Phoenix']">PhoenixLink</locator>
 	</page>
 	<page pageName="com.seleniumwork.page.Phoenix">
-		<locator type="cssSelector" timeOut="3" value="select#gNQuickLinks">Communitiess</locator>
-		<locator type="cssSelector" timeOut="3" value="select#gNQuickLinks>option[text='Phoenix']">PhoenixLink</locator>
+		<locator type="cssSelector" timeOut="3" value="td#AM_LD_Schedules_MENU>a[text*='Schedule']">Schedule</locator>
 	</page>
 </map>

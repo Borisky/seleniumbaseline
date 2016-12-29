@@ -3,7 +3,7 @@ package com.seleniumwork.testcase;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import com.seleniumwork.page.DHlogin2;
+import com.seleniumwork.page.GPO.DHlogin2;
 import com.seleniumwork.util.DriverFactory;
 
 public class Dhlogintest {

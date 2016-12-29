@@ -1,5 +1,6 @@
-package com.seleniumwork.page;
+package com.seleniumwork.page.GPO;
 
+import com.seleniumwork.util.BasePage;
 import com.seleniumwork.util.DataEngine;
 import com.seleniumwork.util.DriverFactory;
 import com.seleniumwork.util.Locator;

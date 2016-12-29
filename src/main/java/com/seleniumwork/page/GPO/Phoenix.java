@@ -6,10 +6,11 @@
 * @date 2016年12月26日 下午4:28:07 
 */
 
-package com.seleniumwork.page;
+package com.seleniumwork.page.GPO;
 
 import org.openqa.selenium.WebDriver;
 
+import com.seleniumwork.util.BasePage;
 import com.seleniumwork.util.Locator;
 
 /* @author xiaozhe

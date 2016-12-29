@@ -2,7 +2,7 @@ package com.seleniumwork.component;
 
 import org.openqa.selenium.WebDriver;
 
-import com.seleniumwork.page.DHlogin2;
+import com.seleniumwork.page.GPO.DHlogin2;
 import com.seleniumwork.util.DriverFactory;
 
 public class DHcomplement {

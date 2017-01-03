@@ -1,7 +1,8 @@
-package com.seleniumwork.page;
+package com.seleniumwork.page.GPO;
 
 import org.openqa.selenium.WebDriver;
 
+import com.seleniumwork.util.BasePage;
 import com.seleniumwork.util.Locator;
 
 public class HPEFSHome extends BasePage{

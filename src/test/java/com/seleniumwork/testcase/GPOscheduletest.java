@@ -3,9 +3,9 @@ package com.seleniumwork.testcase;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import com.seleniumwork.page.HPEFSHome;
-import com.seleniumwork.page.LoginGPO;
-import com.seleniumwork.page.Phoenix;
+import com.seleniumwork.page.GPO.HPEFSHome;
+import com.seleniumwork.page.GPO.LoginGPO;
+import com.seleniumwork.page.GPO.Phoenix;
 import com.seleniumwork.util.DriverFactory;
 
 public class GPOscheduletest {

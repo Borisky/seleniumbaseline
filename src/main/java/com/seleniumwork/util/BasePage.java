@@ -1,13 +1,8 @@
-package com.seleniumwork.page;
+package com.seleniumwork.util;
 
 import java.util.HashMap;
 
 import org.openqa.selenium.WebDriver;
-
-import com.seleniumwork.util.DriverFactory;
-import com.seleniumwork.util.GetElement;
-import com.seleniumwork.util.Locator;
-import com.seleniumwork.util.xmlUtils;
 
 /**
  * BasePage 提供公用方法，供其他类使用

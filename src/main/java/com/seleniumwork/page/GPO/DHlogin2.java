@@ -1,4 +1,4 @@
-package com.seleniumwork.page;
+package com.seleniumwork.page.GPO;
 
 import java.util.HashMap;
 

@@ -1,5 +1,6 @@
-package com.seleniumwork.page;
+package com.seleniumwork.page.CP;
 
+import com.seleniumwork.util.BasePage;
 import com.seleniumwork.util.DataEngine;
 import com.seleniumwork.util.DriverFactory;
 import com.seleniumwork.util.Locator;
@@ -18,7 +19,7 @@ import com.seleniumwork.util.xmlUtils;
  * @author xiaozhe
  *
  */
-public class LoginGPO extends BasePage{
+public class LoginCP extends BasePage{
 
 	
 	Locator logname=getLocators().get("logname");
@@ -26,7 +27,7 @@ public class LoginGPO extends BasePage{
 	Locator LogIn=getLocators().get("LogIn");
 	
 	
-	public LoginGPO(String xmlLocatorPath,WebDriver driver,String strDataSourcePath){
+	public LoginCP(String xmlLocatorPath,WebDriver driver,String strDataSourcePath){
 		super(xmlLocatorPath, driver,strDataSourcePath);
 	}
 	

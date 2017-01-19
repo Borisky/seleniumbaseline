@@ -68,9 +68,10 @@ public class xmlUtils {
 						}
 
 					}
-					Locator temp = new Locator(value,
-							Integer.parseInt(timeOut), getByType(type));
 					locatorName = locator.getText();
+					Locator temp = new Locator(value,
+							Integer.parseInt(timeOut), getByType(type),locatorName);
+					
 					log.info("locator Name is " + locatorName);
 					locatorMap.put(locatorName, temp);
 				}

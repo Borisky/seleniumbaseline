@@ -6,7 +6,6 @@ import org.openqa.selenium.support.ui.Select;
 public class SelectElement {
 
 	public SelectElement() {
-		// TODO Auto-generated constructor stub
 	}
 	/**
 	 * 通过文本选择下拉框元素，最长等待时间24秒

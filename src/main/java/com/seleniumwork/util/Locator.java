@@ -40,7 +40,7 @@ public class Locator {
 	/**
 	 * defaut Locator ,use Xpath
 	 * 
-	 * @author Young
+	 * @author 
 	 * @param element
 	 */
 	public Locator(String loatorvalue) {

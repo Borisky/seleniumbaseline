@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 /**
  * This method is for get the config file
- * @author Young
+ * @author 
  *
  */
 public class ConfigUtils {

@@ -8,7 +8,7 @@ package com.seleniumwork.util;
  *
  */
 public class Locator {
-	public String element;
+	public String loatorvalue;
 
 	private int waitSec;
 
@@ -23,6 +23,15 @@ public class Locator {
 	}
 
 	private ByType byType;
+	private String locatorName;
+
+	public String getLocatorName() {
+		return locatorName;
+	}
+
+	public void setLocatorName(String locatorName) {
+		this.locatorName = locatorName;
+	}
 
 	public Locator() {
 
@@ -31,30 +40,29 @@ public class Locator {
 	/**
 	 * defaut Locator ,use Xpath
 	 * 
-	 * @author Young
+	 * @author 
 	 * @param element
 	 */
-	public Locator(String element) {
-		this.element = element;
+	public Locator(String loatorvalue) {
+		this.loatorvalue = loatorvalue;
 		this.waitSec = 3;
 		this.byType = ByType.xpath;
 	}
 
-	public Locator(String element, int waitSec) {
+	public Locator(String loatorvalue, int waitSec) {
 		this.waitSec = waitSec;
-		this.element = element;
+		this.loatorvalue = loatorvalue;
 		this.byType = ByType.xpath;
 	}
 
-	public Locator(String element, int waitSec, ByType byType) {
+	public Locator(String loatorvalue, int waitSec, ByType byType,String locatorName) {
 		this.waitSec = waitSec;
-		this.element = element;
+		this.loatorvalue = loatorvalue;
 		this.byType = byType;
+		this.locatorName =locatorName;
 	}
 
-	public String getElement() {
-		return element;
-	}
+	
 
 	public int getWaitSec() {
 		return waitSec;
@@ -70,6 +78,14 @@ public class Locator {
 
 	public void setReplace(String rep, String rex)
 	{
-		StringTools.replaceAll(element, rex, rep);
+		StringTools.replaceAll(loatorvalue, rex, rep);
+	}
+
+	public String getLoatorvalue() {
+		return loatorvalue;
+	}
+
+	public void setLoatorvalue(String loatorvalue) {
+		this.loatorvalue = loatorvalue;
 	}
 }

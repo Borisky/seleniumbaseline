@@ -10,7 +10,7 @@ import com.seleniumwork.util.GetElement;
 import com.seleniumwork.util.Locator;
 import com.seleniumwork.util.xmlUtils;
 
-public class DHlogin2 {
+public class DHlogin2_oldtemplate {
 	static String xmllocation;
 	static String page;
 	static WebDriver driver;
@@ -19,7 +19,7 @@ public class DHlogin2 {
 	Locator logbtn ;
 	String testdatafilename="/login.xls";
 	static GetElement gete = new GetElement();
-	public DHlogin2(String xmllocation,String page,WebDriver driver) {
+	public DHlogin2_oldtemplate(String xmllocation,String page,WebDriver driver) {
 		this.xmllocation = xmllocation;
 		this.page =page;
 		this.driver = driver;
